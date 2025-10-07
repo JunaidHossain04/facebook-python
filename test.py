@@ -20,6 +20,7 @@ def calculate_sum(a: float, b: float) -> float:
 def main() -> None:
     try:
         x = 5
+        y = 10
         total = calculate_sum(x, y)
         print(f"Sum: {total}")
     except TypeError as e:
