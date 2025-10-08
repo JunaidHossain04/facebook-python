@@ -24,7 +24,6 @@ def calculate_statistics(data: List[float]) -> Dict[str, Union[float, None, int]
 
     count = len(data)
     total = sum(data)
-    mean = total / count
 
     sorted_data = sorted(data)
     mid = count // 2
