@@ -11,7 +11,6 @@ def calculate_statistics(data):
     
     total = sum(data)
     count = len(data)
-    mean = total / count
     
     # Bug fixed: reuse sorted data instead of sorting again
     sorted_data = sorted(data)
